@@ -17,35 +17,35 @@ class DatabaseSeeder extends Seeder
     {
         mt_srand(20261010);
 
-        $password = 'Danino2026!';
+        $password = 'Delisso2026!';
 
         User::query()->create([
             'name' => 'Administrateur',
-            'email' => 'admin@danino.local',
+            'email' => 'admin@delisso.local',
             'password' => $password,
             'role' => 'admin',
             'active' => true,
         ]);
         $gestionnaire = User::query()->create([
             'name' => 'Gestionnaire Stock',
-            'email' => 'gestionnaire@danino.local',
+            'email' => 'gestionnaire@delisso.local',
             'password' => $password,
             'role' => 'gestionnaire',
             'active' => true,
         ]);
         User::query()->create([
             'name' => 'Lecture Stats',
-            'email' => 'stats@danino.local',
+            'email' => 'stats@delisso.local',
             'password' => $password,
             'role' => 'statistiques',
             'active' => true,
         ]);
 
         $delegues = collect([
-            ['name' => 'Délégué Médical', 'email' => 'delegue@danino.local'],
-            ['name' => 'Sara Ben Youssef', 'email' => 'sara@danino.local'],
-            ['name' => 'Karim Jaziri', 'email' => 'karim@danino.local'],
-            ['name' => 'Nour Hamdi', 'email' => 'nour@danino.local'],
+            ['name' => 'Délégué Médical', 'email' => 'delegue@delisso.local'],
+            ['name' => 'Sara Ben Youssef', 'email' => 'sara@delisso.local'],
+            ['name' => 'Karim Jaziri', 'email' => 'karim@delisso.local'],
+            ['name' => 'Nour Hamdi', 'email' => 'nour@delisso.local'],
         ])->map(fn (array $row) => User::query()->create([
             ...$row,
             'password' => $password,
@@ -67,11 +67,11 @@ class DatabaseSeeder extends Seeder
         }
 
         $cadeaux = collect([
-            ['name' => 'Mug Danino', 'stock' => 160, 'seuil_alerte' => 25],
+            ['name' => 'Mug Delisso', 'stock' => 160, 'seuil_alerte' => 25],
             ['name' => 'Carnet de santé', 'stock' => 280, 'seuil_alerte' => 40],
             ['name' => 'Toise', 'stock' => 36, 'seuil_alerte' => 18],
             ['name' => 'Porte abaisse-langue', 'stock' => 70, 'seuil_alerte' => 20],
-            ['name' => 'Stylo Danino', 'stock' => 220, 'seuil_alerte' => 30],
+            ['name' => 'Stylo Delisso', 'stock' => 220, 'seuil_alerte' => 30],
             ['name' => 'Sac isotherme', 'stock' => 22, 'seuil_alerte' => 12],
         ])->map(function (array $row) use ($gestionnaire) {
             $cadeau = Cadeau::query()->create([...$row, 'active' => true]);

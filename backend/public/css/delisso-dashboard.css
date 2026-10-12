@@ -1,16 +1,16 @@
-.fi-main:has(.danino-dashboard) {
+.fi-main:has(.delisso-dashboard) {
   background:
     radial-gradient(circle at 100% 0%, rgba(227, 28, 35, 0.07), transparent 32%),
     linear-gradient(180deg, #f3f6fb 0%, #e8eef6 100%);
 }
 
-.dark .fi-main:has(.danino-dashboard) {
+.dark .fi-main:has(.delisso-dashboard) {
   background:
     radial-gradient(circle at 100% 0%, rgba(227, 28, 35, 0.16), transparent 28%),
     linear-gradient(180deg, rgba(7, 26, 56, 0.35), transparent 42%);
 }
 
-.danino-hero {
+.delisso-hero {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(280px, 1fr);
   gap: 1.5rem;
@@ -27,7 +27,7 @@
   overflow: hidden;
 }
 
-.danino-hero::after {
+.delisso-hero::after {
   content: "";
   position: absolute;
   left: 0;
@@ -37,7 +37,7 @@
   background: #e31c23;
 }
 
-.danino-kicker {
+.delisso-kicker {
   margin: 0 0 0.35rem;
   font-size: 0.72rem;
   font-weight: 700;
@@ -46,7 +46,7 @@
   color: #f3b4b6;
 }
 
-.danino-hero h1 {
+.delisso-hero h1 {
   margin: 0;
   font-size: clamp(1.6rem, 2vw, 2.1rem);
   font-weight: 700;
@@ -54,21 +54,21 @@
   line-height: 1.1;
 }
 
-.danino-lead {
+.delisso-lead {
   margin: 0.55rem 0 0;
   max-width: 36rem;
   color: #c5d0de;
   font-size: 0.95rem;
 }
 
-.danino-meta {
+.delisso-meta {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin: 0.9rem 0 0;
 }
 
-.danino-meta span {
+.delisso-meta span {
   display: inline-flex;
   align-items: center;
   padding: 0.28rem 0.7rem;
@@ -79,27 +79,27 @@
   color: #e8eef8;
 }
 
-.danino-hero-metrics {
+.delisso-hero-metrics {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.7rem;
 }
 
-.danino-metric {
+.delisso-metric {
   padding: 0.85rem 0.95rem;
   border-radius: 0.95rem;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
-.danino-metric span,
-.danino-metric small {
+.delisso-metric span,
+.delisso-metric small {
   display: block;
   color: #c5d0de;
   font-size: 0.72rem;
 }
 
-.danino-metric strong {
+.delisso-metric strong {
   display: block;
   margin: 0.15rem 0;
   font-size: 1.7rem;
@@ -109,52 +109,52 @@
   font-variant-numeric: tabular-nums;
 }
 
-.danino-metric.is-alert {
+.delisso-metric.is-alert {
   background: rgba(227, 28, 35, 0.22);
   border-color: rgba(255, 180, 183, 0.45);
 }
 
-.danino-dashboard .fi-wi-stats-overview-stat {
+.delisso-dashboard .fi-wi-stats-overview-stat {
   position: relative;
   overflow: hidden;
   border-radius: 1rem;
   min-height: 7.25rem;
 }
 
-.danino-dashboard .fi-wi-stats-overview-stat::before {
+.delisso-dashboard .fi-wi-stats-overview-stat::before {
   content: "";
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
   width: 4px;
-  background: var(--danino-accent, #0b2a5b);
+  background: var(--delisso-accent, #0b2a5b);
 }
 
-.danino-stat-navy { --danino-accent: #0b2a5b; }
-.danino-stat-red { --danino-accent: #e31c23; }
-.danino-stat-teal { --danino-accent: #0f766e; }
-.danino-stat-amber { --danino-accent: #b45309; }
+.delisso-stat-navy { --delisso-accent: #0b2a5b; }
+.delisso-stat-red { --delisso-accent: #e31c23; }
+.delisso-stat-teal { --delisso-accent: #0f766e; }
+.delisso-stat-amber { --delisso-accent: #b45309; }
 
-.dark .danino-stat-navy { --danino-accent: #8eb4ef; }
+.dark .delisso-stat-navy { --delisso-accent: #8eb4ef; }
 
-.danino-dashboard .fi-wi-stats-overview-stat .fi-icon {
-  color: var(--danino-accent, #0b2a5b);
+.delisso-dashboard .fi-wi-stats-overview-stat .fi-icon {
+  color: var(--delisso-accent, #0b2a5b);
 }
 
-.danino-dashboard .fi-wi-stats-overview-stat-value {
+.delisso-dashboard .fi-wi-stats-overview-stat-value {
   font-variant-numeric: tabular-nums;
   letter-spacing: -0.03em;
 }
 
-.danino-dashboard .fi-wi-chart .fi-section,
-.danino-dashboard .fi-wi-table .fi-section {
+.delisso-dashboard .fi-wi-chart .fi-section,
+.delisso-dashboard .fi-wi-table .fi-section {
   border-radius: 1rem;
   overflow: hidden;
 }
 
 @media (max-width: 900px) {
-  .danino-hero {
+  .delisso-hero {
     grid-template-columns: 1fr;
     padding: 1.25rem 1.15rem 1.25rem 1.35rem;
   }

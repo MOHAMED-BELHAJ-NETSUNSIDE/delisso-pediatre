@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
@@ -17,8 +17,9 @@ class AuthController extends Controller
             'password' => ['required', 'string'],
         ]);
 
-        $user = User::query()->where('email', $data['email'])->where('active', true)->first();
-        if (! $user || ! Hash::check($data['password'], $user->password)) {
+        $provider = Auth::createUserProvider('users');
+        $user = $provider->retrieveByCredentials($data);
+        if (! $user instanceof User || ! $user->active || ! $provider->validateCredentials($user, $data)) {
             return response()->json(['error' => 'Identifiants invalides'], 401);
         }
 

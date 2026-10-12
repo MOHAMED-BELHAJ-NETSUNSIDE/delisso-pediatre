@@ -46,5 +46,5 @@
     handleInput(input).catch(console.error);
   });
 
-  window.DaninoCompress = { compressFile };
+  window.DelissoCompress = { compressFile };
 })();

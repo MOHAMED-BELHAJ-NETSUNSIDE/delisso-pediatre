@@ -1,6 +1,6 @@
 {
-  "name": "danino/tournee-pediatre",
-  "description": "Danino Tournée Pédiatre — back-office PHP + API mobile",
+  "name": "delisso/tournee-pediatre",
+  "description": "Delisso Tournée Pédiatre — back-office PHP + API mobile",
   "type": "project",
   "require": {
     "php": ">=8.2"

@@ -4,13 +4,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Connexion — Danino Tournée Pédiatre</title>
-  <link rel="icon" href="/assets/logo-danino.png">
+  <title>Connexion — Delisso Tournée Pédiatre</title>
+  <link rel="icon" href="/assets/logo-delisso.png">
   <link rel="stylesheet" href="/css/admin.css">
 </head>
 <body class="login-page">
   <div class="login-card">
-    <img class="logo" src="/assets/logo-danino.png" alt="Danino">
+    <img class="logo" src="/assets/logo-delisso.png" alt="Delisso">
     <h1>Tournée Pédiatre</h1>
     <p>Back-office — connexion sécurisée</p>
 
@@ -23,7 +23,7 @@
 
     <form method="post" action="/admin/login" autocomplete="username">
       <label for="email">Email</label>
-      <input id="email" type="email" name="email" required placeholder="admin@danino.local">
+      <input id="email" type="email" name="email" required placeholder="admin@delisso.local">
 
       <label for="password">Mot de passe</label>
       <input id="password" type="password" name="password" required placeholder="••••••••">

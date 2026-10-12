@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli'
 
 const config: CapacitorConfig = {
-  appId: 'tn.createam.danino.tournee',
-  appName: 'Danino Tournée',
+  appId: 'tn.createam.delisso.tournee',
+  appName: 'Delisso Tournée',
   webDir: 'dist',
   server: {
     androidScheme: 'http',

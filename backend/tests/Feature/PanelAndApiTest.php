@@ -27,7 +27,7 @@ class PanelAndApiTest extends TestCase
         $this->actingAs($admin)->get('/admin')->assertOk();
 
         $delegue = User::factory()->create([
-            'email' => 'delegue-test@danino.local',
+            'email' => 'delegue-test@delisso.local',
             'role' => 'delegue',
             'active' => true,
         ]);
@@ -101,15 +101,15 @@ class PanelAndApiTest extends TestCase
     public function test_mobile_login_returns_a_token(): void
     {
         User::factory()->create([
-            'email' => 'delegue-test@danino.local',
-            'password' => 'Danino2026!',
+            'email' => 'delegue-test@delisso.local',
+            'password' => 'Delisso2026!',
             'role' => 'delegue',
             'active' => true,
         ]);
 
         $this->postJson('/api/auth/login', [
-            'email' => 'delegue-test@danino.local',
-            'password' => 'Danino2026!',
+            'email' => 'delegue-test@delisso.local',
+            'password' => 'Delisso2026!',
         ])
             ->assertOk()
             ->assertJsonPath('user.role', 'delegue')

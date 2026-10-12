@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Danino - Tournée pédiatres 2019</title>
+	<title>Delisso - Tournée pédiatres 2019</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/select2.css">
 		<script src="js/jquery.js"></script>
@@ -27,7 +27,7 @@ $date = strtotime($datestring . ' Africa/Tunis');
 	<div data-role="page" class="jqm-demos" data-quicklinks="true" data-theme="a">
 
 		<div data-role="header" class="jqm-header">
-			<h2>Danino - Tournée pédiatres 2019</h2>
+			<h2>Delisso - Tournée pédiatres 2019</h2>
 
 		</div><!-- /header -->
 
@@ -1288,15 +1288,15 @@ $date = strtotime($datestring . ' Africa/Tunis');
 	<div class="lab2">
 		<select name="remarque_1" id="remarque_1" class="class_input" >
 			<option value="">-</option>
-                <option value="Je conseille Danino à partir de 6 mois">Je conseille Danino à partir de 6 mois</option>
-                <option value="Je conseille Danino à partir d’un an">Je conseille Danino à partir d’un an </option>
-                <option value="Moins de sucre/Danino est trop sucré">Moins de sucre/Danino est trop sucré </option>
+                <option value="Je conseille Delisso à partir de 6 mois">Je conseille Delisso à partir de 6 mois</option>
+                <option value="Je conseille Delisso à partir d’un an">Je conseille Delisso à partir d’un an </option>
+                <option value="Moins de sucre/Delisso est trop sucré">Moins de sucre/Delisso est trop sucré </option>
                 <option value="Moins de matière grasse">Moins de matière grasse </option>
-                <option value="Pas plus de deux pots Danino par jour">Pas plus de deux pots Danino par jour</option>
+                <option value="Pas plus de deux pots Delisso par jour">Pas plus de deux pots Delisso par jour</option>
                 <option value="Plus de visites durant l’année">Plus de visites durant l’année</option>
-                <option value="Proposition Danino à boire">Proposition Danino à boire </option>
-                <option value="Quel est le ferment lactique utilisé dans la composition Danino? ">Quel est le ferment lactique utilisé dans la composition Danino? </option>
-                <option value="Quelle est la composition de Danino ?">Quelle est la composition de Danino ?</option>
+                <option value="Proposition Delisso à boire">Proposition Delisso à boire </option>
+                <option value="Quel est le ferment lactique utilisé dans la composition Delisso? ">Quel est le ferment lactique utilisé dans la composition Delisso? </option>
+                <option value="Quelle est la composition de Delisso ?">Quelle est la composition de Delisso ?</option>
 		
 		</select>
 	</div>

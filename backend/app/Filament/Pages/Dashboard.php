@@ -32,7 +32,7 @@ class Dashboard extends BaseDashboard
      */
     public function getPageClasses(): array
     {
-        return ['danino-dashboard'];
+        return ['delisso-dashboard'];
     }
 
     public function getHeader(): ?View

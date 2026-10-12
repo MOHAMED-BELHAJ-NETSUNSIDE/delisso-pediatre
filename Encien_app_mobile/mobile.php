@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Danino</title>
+	<title>Delisso</title>
 		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 		<script src="js/jquery.js"></script>
@@ -14,7 +14,7 @@
 	<div data-role="page" class="jqm-demos" data-quicklinks="true">
 
 		<div data-role="header" class="jqm-header">
-			<h2>Danino</h2>
+			<h2>Delisso</h2>
 
 		</div><!-- /header -->
 

@@ -43,8 +43,8 @@ export default function LoginPage() {
         <div className="mb-6 text-center text-white">
           <img
             src={logo}
-            alt="Danino"
-            className="mx-auto mb-4 size-24 rounded-3xl object-cover ring-1 ring-white/20"
+            alt="Délisso"
+            className="mx-auto mb-4 h-auto w-full max-w-56 rounded-2xl object-contain ring-1 ring-white/20"
           />
           <p className="text-[0.7rem] font-bold tracking-[0.16em] text-[#f3b4b6] uppercase">Tournée pédiatre</p>
           <h1 className="mt-2 text-2xl font-bold tracking-tight">Connexion délégué</h1>

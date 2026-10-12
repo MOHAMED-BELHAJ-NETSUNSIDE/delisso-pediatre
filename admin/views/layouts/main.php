@@ -10,15 +10,15 @@ $page = $page ?? '';
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Danino Tournée Pédiatre</title>
-  <link rel="icon" href="/assets/logo-danino.png">
+  <title>Delisso Tournée Pédiatre</title>
+  <link rel="icon" href="/assets/logo-delisso.png">
   <link rel="stylesheet" href="/css/admin.css">
 </head>
 <body>
 <div class="app-shell">
   <aside class="sidebar">
     <div class="brand">
-      <img src="/assets/logo-danino.png" alt="Danino">
+      <img src="/assets/logo-delisso.png" alt="Delisso">
       <span>Tournée Pédiatre</span>
     </div>
     <nav>

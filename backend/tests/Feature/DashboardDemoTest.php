@@ -25,7 +25,7 @@ class DashboardDemoTest extends TestCase
         $this->assertGreaterThan(0, Cadeau::query()->where('active', true)->whereColumn('stock', '<=', 'seuil_alerte')->count());
         $this->assertGreaterThan(0, Visite::query()->whereDate('created_at', today())->count());
 
-        $admin = User::query()->where('email', 'admin@danino.local')->firstOrFail();
+        $admin = User::query()->where('email', 'admin@delisso.local')->firstOrFail();
 
         Livewire::actingAs($admin)
             ->test(TourneeStats::class)

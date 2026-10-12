@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Tournée Grand Tunis / Danino</title>
+	<title>Tournée Grand Tunis / Delisso</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/select2.css">
 		<script src="js/jquery.js"></script>
@@ -47,7 +47,7 @@ $id = $_GET["id"];
 	<div data-role="page" class="jqm-demos" data-quicklinks="true" data-theme="a">
 
 		<div data-role="header" class="jqm-header">
-			<h2>Tournée Grand Tunis / Danino</h2>
+			<h2>Tournée Grand Tunis / Delisso</h2>
 
 		</div><!-- /header -->
 
@@ -1149,18 +1149,18 @@ $id = $_GET["id"];
 		<input type="hidden" name="remarque_1" id="remarque_1" value="" />
 		<select id="remarque_10" class="class_input" multiple="multiple" size="10" style="height: 100%;">
 			<option value="">-</option>
-              <!--  <option value="Accord du pédiatre pour la diffusion dans les cabinets des dessins animés Danino sur clé USB">Accord du pédiatre pour la diffusion dans les cabinets des dessins animés Danino sur clé USB</option>
-                <option value="Je conseille Danino à partir de 6 mois">Je conseille Danino à partir de 6 mois</option>
-                <option value="Je conseille Danino à partir d’un an">Je conseille Danino à partir d’un an </option>
-                <option value="Moins de sucre/Danino est trop sucré">Moins de sucre/Danino est trop sucré </option>
+              <!--  <option value="Accord du pédiatre pour la diffusion dans les cabinets des dessins animés Delisso sur clé USB">Accord du pédiatre pour la diffusion dans les cabinets des dessins animés Delisso sur clé USB</option>
+                <option value="Je conseille Delisso à partir de 6 mois">Je conseille Delisso à partir de 6 mois</option>
+                <option value="Je conseille Delisso à partir d’un an">Je conseille Delisso à partir d’un an </option>
+                <option value="Moins de sucre/Delisso est trop sucré">Moins de sucre/Delisso est trop sucré </option>
                 <option value="Moins de matière grasse">Moins de matière grasse </option>
-                <option value="Pas plus de deux pots Danino par jour">Pas plus de deux pots Danino par jour</option>
+                <option value="Pas plus de deux pots Delisso par jour">Pas plus de deux pots Delisso par jour</option>
                 <option value="Plus de visites durant l’année">Plus de visites durant l’année</option>
-                <option value="Proposition Danino à boire">Proposition Danino à boire </option>
-                <option value="Quel est le ferment lactique utilisé dans la composition Danino? ">Quel est le ferment lactique utilisé dans la composition Danino? </option>
-                <option value="Quelle est la composition de Danino ?">Quelle est la composition de Danino ?</option>				
-				<option value="Je recommande Danino">Je recommande Danino</option>
-                <option value="Danino sans sucre">Danino sans sucre</option>
+                <option value="Proposition Delisso à boire">Proposition Delisso à boire </option>
+                <option value="Quel est le ferment lactique utilisé dans la composition Delisso? ">Quel est le ferment lactique utilisé dans la composition Delisso? </option>
+                <option value="Quelle est la composition de Delisso ?">Quelle est la composition de Delisso ?</option>				
+				<option value="Je recommande Delisso">Je recommande Delisso</option>
+                <option value="Delisso sans sucre">Delisso sans sucre</option>
                 <option value="Plus de parfums">Plus de parfums</option>
 				<option value="Satisfait par le produit">Satisfait par le produit</option>
                 <option value="Des cadeaux pour les enfants">Des cadeaux pour les enfants</option>

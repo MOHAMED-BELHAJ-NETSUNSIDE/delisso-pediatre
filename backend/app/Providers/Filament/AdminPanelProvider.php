@@ -28,7 +28,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->brandName('Danino')
+            ->brandName('Delisso Tournée Pédiatre')
             ->font('DM Sans')
             ->colors([
                 'primary' => Color::hex('#0b2a5b'),
@@ -62,7 +62,7 @@ class AdminPanelProvider extends PanelProvider
             ->renderHook(PanelsRenderHook::HEAD_END, fn (): HtmlString => new HtmlString(<<<'HTML'
                 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
                 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-                <link rel="stylesheet" href="/css/danino-dashboard.css">
+                <link rel="stylesheet" href="/css/delisso-dashboard.css">
                 <style>
                     .visite-map .leaflet-container { height: 100%; width: 100%; }
                     .visite-map img { max-width: none !important; max-height: none !important; }

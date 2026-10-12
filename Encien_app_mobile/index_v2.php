@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Danino - Tournée pédiatres 2019</title>
+	<title>Delisso - Tournée pédiatres 2019</title>
 		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.mobile-1.4.5.min.js"></script>
@@ -18,7 +18,7 @@
 	<div data-role="page" class="jqm-demos" data-quicklinks="true" data-theme="a">
 
 		<div data-role="header" class="jqm-header">
-			<h2>Danino - Tournée pédiatres 2019</h2>
+			<h2>Delisso - Tournée pédiatres 2019</h2>
 
 		</div><!-- /header -->
 

@@ -51,34 +51,34 @@ class TourneeStats extends StatsOverviewWidget
                 ->descriptionColor($delta > 0 ? 'success' : ($delta < 0 ? 'danger' : 'gray'))
                 ->icon(Heroicon::OutlinedCalendarDays)
                 ->color('primary')
-                ->extraAttributes(['class' => 'danino-stat danino-stat-navy']),
+                ->extraAttributes(['class' => 'delisso-stat delisso-stat-navy']),
             Stat::make('Visites du mois', (string) Visite::query()->where('created_at', '>=', $from)->count())
                 ->description('7 derniers jours')
                 ->chart($last7)
                 ->chartColor('primary')
                 ->icon(Heroicon::OutlinedChartBar)
                 ->color('primary')
-                ->extraAttributes(['class' => 'danino-stat danino-stat-navy']),
+                ->extraAttributes(['class' => 'delisso-stat delisso-stat-navy']),
             Stat::make('Cadeaux remis', (string) $cadeauxMois)
                 ->description('Depuis le '.$from->format('d/m'))
                 ->icon(Heroicon::OutlinedGift)
                 ->color('danger')
-                ->extraAttributes(['class' => 'danino-stat danino-stat-red']),
+                ->extraAttributes(['class' => 'delisso-stat delisso-stat-red']),
             Stat::make('Médecins actifs', (string) Medecin::query()->where('active', true)->count())
                 ->description('Annuaire')
                 ->icon(Heroicon::OutlinedUsers)
                 ->color('success')
-                ->extraAttributes(['class' => 'danino-stat danino-stat-teal']),
+                ->extraAttributes(['class' => 'delisso-stat delisso-stat-teal']),
             Stat::make('Délégués', (string) User::query()->where('role', 'delegue')->where('active', true)->count())
                 ->description('Comptes actifs')
                 ->icon(Heroicon::OutlinedUserGroup)
                 ->color('primary')
-                ->extraAttributes(['class' => 'danino-stat danino-stat-navy']),
+                ->extraAttributes(['class' => 'delisso-stat delisso-stat-navy']),
             Stat::make('Stocks bas', (string) $bas->count())
                 ->description($bas->isEmpty() ? 'Aucun seuil atteint' : $stockNames)
                 ->icon(Heroicon::OutlinedExclamationTriangle)
                 ->color($bas->isEmpty() ? 'success' : 'warning')
-                ->extraAttributes(['class' => 'danino-stat '.($bas->isEmpty() ? 'danino-stat-teal' : 'danino-stat-amber')]),
+                ->extraAttributes(['class' => 'delisso-stat '.($bas->isEmpty() ? 'delisso-stat-teal' : 'delisso-stat-amber')]),
         ];
     }
 }

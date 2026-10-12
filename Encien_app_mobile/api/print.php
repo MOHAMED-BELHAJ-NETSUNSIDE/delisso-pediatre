@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Danino - Tournée pédiatres 2019</title>
+	<title>Delisso - Tournée pédiatres 2019</title>
 		<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 		<script src="js/jquery.js"></script>

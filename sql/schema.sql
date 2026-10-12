@@ -1,9 +1,9 @@
--- Danino Tournée Pédiatre — MySQL 8 / PHP 8.2
+-- Delisso Tournée Pédiatre — MySQL 8 / PHP 8.2
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
-CREATE DATABASE IF NOT EXISTS danino_tournee CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE danino_tournee;
+CREATE DATABASE IF NOT EXISTS delisso_tournee CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE delisso_tournee;
 
 DROP TABLE IF EXISTS visite_photos;
 DROP TABLE IF EXISTS visite_cadeaux;
@@ -114,12 +114,12 @@ CREATE TABLE stock_mouvements (
 
 SET FOREIGN_KEY_CHECKS = 1;
 
--- Seeds (mot de passe pour tous : Danino2026!)
+-- Seeds (mot de passe pour tous : Delisso2026!)
 INSERT INTO users (name, email, password_hash, role, active) VALUES
-('Administrateur', 'admin@danino.local', '$2y$10$k1Pdtpuo0VkC1u6ULcAv8.fqGxocE69AyUHQZCpsZxq8gvUYw8I1u', 'admin', 1),
-('Gestionnaire Stock', 'gestionnaire@danino.local', '$2y$10$k1Pdtpuo0VkC1u6ULcAv8.fqGxocE69AyUHQZCpsZxq8gvUYw8I1u', 'gestionnaire', 1),
-('Lecture Stats', 'stats@danino.local', '$2y$10$k1Pdtpuo0VkC1u6ULcAv8.fqGxocE69AyUHQZCpsZxq8gvUYw8I1u', 'statistiques', 1),
-('Délégué Médical', 'delegue@danino.local', '$2y$10$k1Pdtpuo0VkC1u6ULcAv8.fqGxocE69AyUHQZCpsZxq8gvUYw8I1u', 'delegue', 1);
+('Administrateur', 'admin@delisso.local', '$2y$10$sDLQw82t3BVo/VZwPDT05OC5MnfI.5rHp9wElTuqTqOMbBOHXT3R2', 'admin', 1),
+('Gestionnaire Stock', 'gestionnaire@delisso.local', '$2y$10$sDLQw82t3BVo/VZwPDT05OC5MnfI.5rHp9wElTuqTqOMbBOHXT3R2', 'gestionnaire', 1),
+('Lecture Stats', 'stats@delisso.local', '$2y$10$sDLQw82t3BVo/VZwPDT05OC5MnfI.5rHp9wElTuqTqOMbBOHXT3R2', 'statistiques', 1),
+('Délégué Médical', 'delegue@delisso.local', '$2y$10$sDLQw82t3BVo/VZwPDT05OC5MnfI.5rHp9wElTuqTqOMbBOHXT3R2', 'delegue', 1);
 
 INSERT INTO etablissements (name) VALUES
 ('Hôpital Charles Nicolle'),
@@ -127,7 +127,7 @@ INSERT INTO etablissements (name) VALUES
 ('Cabinet Dr. Example');
 
 INSERT INTO cadeaux (name, stock, seuil_alerte, active) VALUES
-('Mug Danino', 100, 20, 1),
+('Mug Delisso', 100, 20, 1),
 ('Carnet de santé', 200, 40, 1),
 ('Toise', 50, 10, 1),
 ('Porte abaisse-langue', 80, 15, 1);

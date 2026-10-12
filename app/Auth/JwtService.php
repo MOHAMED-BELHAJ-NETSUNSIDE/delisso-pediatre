@@ -13,7 +13,7 @@ final class JwtService
         $ttl = (int) Env::get('JWT_TTL', '604800');
         $header = ['typ' => 'JWT', 'alg' => 'HS256'];
         $payload = [
-            'iss' => Env::get('APP_URL', 'danino'),
+            'iss' => Env::get('APP_URL', 'delisso'),
             'iat' => $now,
             'exp' => $now + $ttl,
             'sub' => (int) $user['id'],

@@ -3,21 +3,21 @@ const API_URL = (import.meta.env.VITE_API_URL as string) || ''
 export type User = { id: number; name: string; email: string; role: string }
 
 function token(): string | null {
-  return localStorage.getItem('danino_token')
+  return localStorage.getItem('delisso_token')
 }
 
 export function setAuth(t: string, user: User) {
-  localStorage.setItem('danino_token', t)
-  localStorage.setItem('danino_user', JSON.stringify(user))
+  localStorage.setItem('delisso_token', t)
+  localStorage.setItem('delisso_user', JSON.stringify(user))
 }
 
 export function clearAuth() {
-  localStorage.removeItem('danino_token')
-  localStorage.removeItem('danino_user')
+  localStorage.removeItem('delisso_token')
+  localStorage.removeItem('delisso_user')
 }
 
 export function getUser(): User | null {
-  const raw = localStorage.getItem('danino_user')
+  const raw = localStorage.getItem('delisso_user')
   if (!raw) return null
   try {
     return JSON.parse(raw) as User

@@ -8,14 +8,14 @@ define('DB_SERVER', 'unibronertbackup.mysql.db');
 define('DB_USERNAME', 'unibronertbackup');
 define('DB_PASSWORD', 'Momo08545547');
 define('DB_DATABASE', 'unibronertbackup');
-define("BASE_URL", "http://danino.createam.tn/mobile/api/");
+define("BASE_URL", "http://delisso.createam.tn/mobile/api/");
 define("SITE_KEY", 'yourSecretKey');
 
 // define('DB_SERVER', 'melservioqhotel.mysql.db');
 // define('DB_USERNAME', 'melservioqhotel');
 // define('DB_PASSWORD', 'Momo08545547');
 // define('DB_DATABASE', 'melservioqhotel');
-// define("BASE_URL", "http://danino.createam.tn/mobile/api/");
+// define("BASE_URL", "http://delisso.createam.tn/mobile/api/");
 // define("SITE_KEY", 'yourSecretKey');
 
 

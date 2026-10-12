@@ -1,4 +1,4 @@
-# Danino Tournée Pédiatre
+# Delisso Tournée Pédiatre
 
 Application pour délégués médicaux.
 
@@ -6,14 +6,14 @@ Application pour délégués médicaux.
 - **API** : Laravel (Sanctum), consommée par le mobile
 - **Mobile** : React + shadcn/ui + Capacitor
 
-## Comptes (mot de passe : `Danino2026!`)
+## Comptes (mot de passe : `Delisso2026!`)
 
 | Email | Rôle | Accès |
 |-------|------|--------|
-| admin@danino.local | admin | Filament |
-| gestionnaire@danino.local | gestionnaire | Filament (stock) |
-| stats@danino.local | statistiques | Filament (visites) |
-| delegue@danino.local | délégué | Application mobile uniquement |
+| admin@delisso.local | admin | Filament |
+| gestionnaire@delisso.local | gestionnaire | Filament (stock) |
+| stats@delisso.local | statistiques | Filament (visites) |
+| delegue@delisso.local | délégué | Application mobile uniquement |
 
 ## Admin et API (Laravel)
 
@@ -53,7 +53,7 @@ npx cap open android
 
 ## Logo
 
-- Admin Filament : `backend/public/images/logo-danino.png`
-- Mobile : `mobile/src/assets/logo-danino.png`
+- Admin Filament : `backend/public/images/logo-delisso.png`
+- Mobile : `mobile/src/assets/logo-mobile.png`
 
-Source : `logo-danino.png` à la racine.
+Source : `logo-delisso.png` à la racine.
