@@ -1,0 +1,13 @@
+{
+  "name": "danino/tournee-pediatre",
+  "description": "Danino Tournée Pédiatre — back-office PHP + API mobile",
+  "type": "project",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
